@@ -9,6 +9,15 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+/**
+ * @author roshankumarm
+ * 
+ *         This entity does not know which entities are referring. There is no
+ *         refernce to employee in this table. So it says set of employyes are
+ *         mapped by department entity and how to join can be told by employee
+ *         entity where it will show join on column.
+ *
+ */
 @Entity
 @Table(name = "department")
 public class Department {

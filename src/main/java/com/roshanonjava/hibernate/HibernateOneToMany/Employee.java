@@ -9,7 +9,12 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-
+ 
+/**
+ * @author roshankumarm
+ * How to join can be told by employee
+ *         entity where it will show join on column.
+ */
 @Entity
 @Table(name = "employee")
 public class Employee {
